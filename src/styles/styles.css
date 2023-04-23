@@ -282,6 +282,11 @@ nav ul li a:hover::after {
     display: inline-block;
     background-color: #ff004f;
 }
+
+.btn.btn2.disabledBtn {
+    background-color: #ababab;
+    border: none;
+}
 .contact-right form {
     width: 100%;
 }
