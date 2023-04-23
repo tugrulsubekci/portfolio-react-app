@@ -50,7 +50,6 @@ function Contact() {
                         <p style={{visibility: (isVisible ? "visible" : "hidden")}} >Your message has been sent</p>
                         <button type="submit" className={"btn btn2" + (isDisabled ? " disabledBtn" : "")} disabled={isDisabled}>Submit</button>
                     </form>
-                    <span id="msg"></span>
                 </div>
             </div>
         </div>
