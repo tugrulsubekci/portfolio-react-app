@@ -307,10 +307,41 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
+/* -------------------------- /games ----------------------------- */
+.grid-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-item {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    margin-top: 30px;
+}
+
+.game-icon {
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
 /* -----------------css for small screens----------------------- */
 nav .fa-solid {
     display: none;
 }
+
+@media only screen and (max-width: 900px)
+{
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
+}
+
 @media only screen and (max-width: 600px) {
     .header-text {
         margin-top: 50%;
@@ -364,4 +395,5 @@ nav .fa-solid {
     .contact-left, .contact-right {
         flex-basis: 100%;
     }
+    .grid-container { grid-template-columns: repeat(1, 1fr); }
 }

@@ -3,6 +3,7 @@ import "../styles/styles.css";
 import soccerBallRun from "../images/soccer-ball-run.png";
 import connectThemAll from "../images/connect-them-all.jpg";
 import helixJump from "../images/helix-jump.jpg";
+import { Link } from "react-router-dom";
 
 function Portfolio() {
     return (
@@ -17,7 +18,7 @@ function Portfolio() {
                         <p>
                             A runner game, it is about football. Download it from Google Play Store.
                         </p>
-                        <a href="#"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <Link to="games/soccerBallRun"><i className="fa-solid fa-arrow-up-right-from-square"></i></Link>
                     </div>
                 </div>
                 <div className="work">
@@ -27,7 +28,7 @@ function Portfolio() {
                         <p>
                             A puzzle game
                         </p>
-                        <a href="#"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <Link to="games/connectThemAll"><i className="fa-solid fa-arrow-up-right-from-square"></i></Link>
                     </div>
                 </div>
                 <div className="work">
@@ -37,11 +38,11 @@ function Portfolio() {
                         <p>
                             A hyper-casual game which is clone
                         </p>
-                        <a href="#"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <Link to="games/helixJump"><i className="fa-solid fa-arrow-up-right-from-square"></i></Link>
                     </div>
                 </div>
             </div>
-            <a href="#" className="btn">See more</a>
+            <Link to="games" className="btn">See more</Link>
         </div>
     </div>
     );

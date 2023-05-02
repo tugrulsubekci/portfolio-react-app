@@ -3,7 +3,7 @@ import React  from "react";
 function Game() {
     return (
         <iframe
-            src={`${process.env.PUBLIC_URL}/Tetris/index.html`}
+            src={`${process.env.PUBLIC_URL}/games/Tetris/index.html`}
             title="WebGL Build"
             width="1024"
             height="768"
