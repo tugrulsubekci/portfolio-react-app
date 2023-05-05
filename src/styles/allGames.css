@@ -1,0 +1,60 @@
+.root-allgames {
+    --clr-primary: #ff004f;
+    --clr-gray: #d2d2d2;
+    color: var(--clr-gray);
+    margin: 2rem;
+  }
+  
+  .wrapper-grid-allgames {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+  }
+
+  .container-allgames {
+    overflow: hidden;
+    /* box-shadow: 0px 2px 8px 0px var(--clr-gray-light); */
+    background-color: #262626;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    margin: 0.5rem;
+  }
+
+  .banner-img-allgames {
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .profile-img-allgames {
+    width: 16rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+  }
+  
+  .name-allgames {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .description-allgames {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .btn-allgames {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    background-color: var(--clr-primary);
+  }
+  .btn-allgames:hover {
+    cursor: pointer;
+  }
