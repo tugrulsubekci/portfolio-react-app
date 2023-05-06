@@ -307,15 +307,26 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
+/* -------------------game----------------------- */
+.center-container {
+    text-align: center;
+    background-color: #262626;
+    width: 960px;
+    height: max-content;
+    margin: 0px auto;
+}
+.center-container ul {
+    text-align: start;
+    align-items: start;
+}
+.container iframe {
+    width: 500px;
+    height: 750px;
+}
 
 /* -----------------css for small screens----------------------- */
 nav .fa-solid {
     display: none;
-}
-
-@media only screen and (max-width: 900px)
-{
-    .grid-container { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media only screen and (max-width: 600px) {
@@ -371,5 +382,8 @@ nav .fa-solid {
     .contact-left, .contact-right {
         flex-basis: 100%;
     }
-    .grid-container { grid-template-columns: repeat(1, 1fr); }
+
+    .center-container {
+        width: 600px;
+    }
 }
