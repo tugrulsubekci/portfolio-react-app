@@ -4,7 +4,7 @@ import GameCard from "./GameCard";
 
 function AllGames() {
     return (
-        <div class="wrapper-grid-allgames root-allgames">
+        <div className="wrapper-grid-allgames root-allgames">
             <GameCard logoPath={`${process.env.PUBLIC_URL}/logos/rapid-render-logo.png`} name="Rapid Render" shortDescription="An interior design application"/>
             <GameCard logoPath={`${process.env.PUBLIC_URL}/logos/connect-them-all-logo.png`} name="Connect Them All" shortDescription="Puzzle"/>
             <GameCard logoPath={`${process.env.PUBLIC_URL}/logos/soccer-ball-run-logo.png`} name="Soccer Ball Run" shortDescription="Platformer"/>
