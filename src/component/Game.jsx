@@ -25,6 +25,10 @@ function Game() {
                     <div className={game.images !== undefined ? "game-left" : ""}>
                         {game.images !== undefined ? "" : <img src={game.logoLink} alt="game logo"/>}
                         <h1>{game.name}</h1>
+                        {game.descriptions !== undefined ? game.descriptions.map((d,index) => {
+                            if(d.type === "p")
+                                return <p key={index}>{d.text}</p>
+                        }): ""}
                         <ul>
                             {game.descriptions.map((d,index)=> {
                                 if(d.type ==="ul")

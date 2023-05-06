@@ -63,5 +63,22 @@ const pacmanGame = {
         }
     ]
 }
+const snakeGame = {
+    name:"Snake",
+    isPlayable: true,
+    playLink: `${process.env.PUBLIC_URL}/games/Snake/index.html`,
+    logoLink: `${process.env.PUBLIC_URL}/logos/snake-logo.png`,
+    width: "750",
+    height: "600",
+    allowFullScreen: true,
+    descriptions:[{
+        type:"p", 
+        text:"I made a snake clone which was my first individual project. I think, most important side of game its algoritm."
+    }],
+    links: [{
+        name:"View my github repository",
+        path:"https://github.com/tugrulsubekci/Project_Snake2D"
+    }],
+}
 
-export let games = [tetrisGame, pacmanGame];
+export let games = [tetrisGame, pacmanGame, snakeGame];
