@@ -319,10 +319,20 @@ form .btn2{
     text-align: start;
     align-items: start;
 }
-.container iframe {
-    width: 500px;
-    height: 750px;
+.game-left {
+    flex-basis: 50%;   
 }
+.game-right {
+    flex-basis: 50%;   
+}
+/* .game-left p {
+    margin-top: 30px;   
+} */
+/* .game-left p i {
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+} */
 
 /* -----------------css for small screens----------------------- */
 nav .fa-solid {
