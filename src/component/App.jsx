@@ -1,6 +1,5 @@
 import React  from "react";
 import Navbar from "./Navbar";
-import Header from "./Header";
 import About from "./About/About";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
@@ -8,6 +7,7 @@ import Contact from "./Contact";
 import { Routes, Route } from "react-router-dom";
 import AllGames from "./AllGames";
 import Game from "./Game";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 function App() {
   return (
@@ -24,6 +24,8 @@ function App() {
         }/>
         <Route path="games" element={<AllGames/>}/>
         <Route path="games/:gameName" element={<Game/>}/>
+
+        <Route path="/solitaire/privacy-policy" element={<PrivacyPolicy/>}/>
       </Routes>
     </>
   );
