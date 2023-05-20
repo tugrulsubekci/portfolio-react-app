@@ -17,13 +17,13 @@ function App() {
         <Route path="/" element={
           <>
             <About />
-            <Services />
+            {/* <Services /> */}
             <Portfolio />
             <Contact />
           </>
         }/>
-        <Route path="games" element={<AllGames/>}/>
-        <Route path="games/:gameName" element={<Game/>}/>
+        <Route path="/games" element={<AllGames/>}/>
+        <Route path="/games/:gameName" element={<Game/>}/>
 
         <Route path="/solitaire/privacy-policy" element={<PrivacyPolicy/>}/>
       </Routes>

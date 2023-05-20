@@ -81,4 +81,265 @@ const snakeGame = {
     }],
 }
 
-export let games = [tetrisGame, pacmanGame, snakeGame];
+const helixJump = {
+    name:"Helix Jump",
+    isPlayable: true,
+    playLink: `${process.env.PUBLIC_URL}/games/HelixJump/index.html`,
+    logoLink: `${process.env.PUBLIC_URL}/logos/helix-jump-logo.png`,
+    width: "500",
+    height: "800",
+    allowFullScreen: true,
+    descriptions:[
+        {
+            type:"ul", 
+            text:"Sliders"
+        },
+        {
+            type:"ul",
+            text:"Button animations"
+        },
+        {
+            type:"ul",
+            text:"Data saving with player prefs"
+        },
+        {
+            type:"ul",
+            text:"Trail renderer"
+        },
+        {
+            type:"ul",
+            text:"Procedural level generation"
+        }
+    ],
+    links: [{
+        name:"View my github repository",
+        path:"https://github.com/tugrulsubekci/Helix-Jump-3D"
+    }],
+    images:[
+        {
+           path:`${process.env.PUBLIC_URL}/images/helixJump/1.jpg`,
+           width:"300px",
+           height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/helixJump/2.jpg`,
+            width:"300px",
+            height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/helixJump/3.jpg`,
+            width:"300px",
+            height:"500px"
+        }
+    ]
+}
+
+const myBird = {
+    name:"My Bird",
+    isPlayable: true,
+    playLink: `${process.env.PUBLIC_URL}/games/myBird/index.html`,
+    logoLink: `${process.env.PUBLIC_URL}/logos/my-bird-logo.png`,
+    width: "500",
+    height: "800",
+    allowFullScreen: true,
+    descriptions:[
+        {
+            type:"ul", 
+            text:"I made all the models (birds, clouds,obstacles) myself in blender."
+        },
+        {
+            type:"ul",
+            text:"I added a flappy wing animation to the birds."
+        },
+        {
+            type:"ul",
+            text:"I published it on Google Play Store and I integrated unity ads."
+        },
+        {
+            type:"ul",
+            text:"This is the first project I published on Google Play Store."
+        },
+    ],
+    links: [{
+        name:"View my github repository",
+        path:"https://github.com/tugrulsubekci/MyBird"
+    }],
+    images:[
+        {
+           path:`${process.env.PUBLIC_URL}/images/myBird/1.jpg`,
+           width:"300px",
+           height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/myBird/2.jpg`,
+            width:"300px",
+            height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/myBird/3.jpg`,
+            width:"300px",
+            height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/myBird/4.jpg`,
+            width:"300px",
+            height:"500px"
+        }
+    ]
+}
+const chemistryLab = {
+    name:"Chemistry Lab",
+    isPlayable: true,
+    playLink: `${process.env.PUBLIC_URL}/games/chemistryLab/index.html`,
+    logoLink: `${process.env.PUBLIC_URL}/logos/chemistry-lab-logo.png`,
+    width: "650",
+    height: "450",
+    allowFullScreen: true,
+    descriptions:[
+        {
+            type:"ul", 
+            text:"I made this educational chemistry game for I Love Science Game Jam."
+        },
+        {
+            type:"ul",
+            text:"There was a time limit which is 48 hours."
+        },
+        {
+            type:"ul",
+            text:"You can drag potions to the reactant 1 and 2. If you success, you can create a product and you can finish your orders."
+        },
+        {
+            type:"ul",
+            text:"I applied the Object Pooling method for the first time."
+        },
+    ],
+    links: [{
+        name:"View my github repository",
+        path:"https://github.com/tugrulsubekci/ILoveScienceGameJam"
+    }],
+}
+
+const soccerBallRun = {
+    name:"Soccer Ball Run",
+    isPlayable: false,
+    playLink: `https://www.youtube.com/embed/pfor73SM5SQ`,
+    logoLink: `${process.env.PUBLIC_URL}/logos/soccer-ball-run-logo.png`,
+    width: "800",
+    height: "450",
+    allowFullScreen: true,
+    videoLink: "",
+    descriptions:[
+        {
+            type:"ul", 
+            text:"I made a game from scratch and named Soccer Ball Run. It was my idea and has a new concept."
+        },
+        {
+            type:"ul",
+            text:"I worked with a game artist and I realized that game art is very important."
+        },
+        {
+            type:"ul",
+            text:"I faced many problems because of SDK’s integration. Also, mobile optimization was a very difficult process, but now the performance of my game is quite good."
+        },
+        {
+            type:"ul",
+            text:"I added vibration, shop system, Unity Mediation SDK, Facebook SDK, Gameanalytics SDK and published it on Google Play Store."
+        },
+        {
+            type:"ul",
+            text:"Please download the game and watch some ads for me :)"
+        }
+    ],
+    links: [{
+        name:"View my github repository",
+        path:"https://github.com/tugrulsubekci/SoccerBallRun"
+    }],
+    images:[
+        {
+           path:`${process.env.PUBLIC_URL}/images/soccerBallRun/1.png`,
+           width:"300px",
+           height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/soccerBallRun/2.png`,
+            width:"300px",
+            height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/soccerBallRun/3.png`,
+            width:"300px",
+            height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/soccerBallRun/4.png`,
+            width:"300px",
+            height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/soccerBallRun/5.png`,
+            width:"300px",
+            height:"500px"
+        }
+    ]
+}
+const rapidRender = {
+    name:"Rapid Render",
+    isPlayable: false,
+    playLink: `https://www.youtube.com/embed/pfor73SM5SQ`,
+    logoLink: `${process.env.PUBLIC_URL}/logos/rapid-render-logo.png`,
+    width: "800",
+    height: "450",
+    allowFullScreen: true,
+    videoLink: "",
+    descriptions:[
+        {
+            type:"ul", 
+            text:"You can build a home with every detail. (Ceramics, windows, doors…)"
+        },
+        {
+            type:"ul",
+            text:"You can take a high-quality render at cloud within 60 seconds."
+        },
+        {
+            type:"ul",
+            text:"Download all products (chair, table…) from server at runtime."
+        },
+        {
+            type:"ul",
+            text:"I can say, I mastered in OOP with this project"
+        }
+    ],
+    links: [{
+        name:"View my github repository",
+        path:"https://github.com/sugartechnology/3Designer"
+    }],
+    images:[
+        {
+           path:`${process.env.PUBLIC_URL}/images/rapidRender/1.png`,
+           width:"500px",
+           height:"300px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/rapidRender/2.png`,
+            width:"500px",
+            height:"300px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/rapidRender/3.png`,
+            width:"500px",
+            height:"300px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/rapidRender/4.png`,
+            width:"500px",
+            height:"300px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/rapidRender/5.png`,
+            width:"500px",
+            height:"300px"
+        }
+    ]
+}
+
+export let games = [tetrisGame, pacmanGame, snakeGame, helixJump, myBird, chemistryLab, soccerBallRun, rapidRender];

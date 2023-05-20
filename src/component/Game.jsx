@@ -35,7 +35,7 @@ function Game() {
                                     return <li key={index}>{d.text}</li>
                             })}
                         </ul>
-                        {game.links.map((l,index)=> <Link key={index} to={l.path}>{l.name}</Link>)}
+                        {game.links.map((l,index)=> <Link key={index} to={l.path} target="_blank">{l.name}</Link>)}
                     </div>
                     <div className={game.images !== undefined ? "game-right" : ""}>
                         {game.images !== undefined ? game.images.map((i,index)=> <img key={index} src={i.path} alt="game image" style={{width: i.width, height: i.height}} />) : ""}
