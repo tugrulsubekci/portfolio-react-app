@@ -31,10 +31,10 @@ function About() {
         <div id="about">
         <div className="container">
             <div className="row">
-                <div className="about-col-1">
+                {/* <div className="about-col-1">
                     <img src={portre} className="portre" />
-                </div>
-                <div className="about-col-2">
+                </div> */}
+                <div className="about-col-1">
                     <h1 className="sub-title">About Me</h1>
                     <p className="about-me-title">I am a Software Developer who is interested about any computer technologies.</p>
                     <p>

@@ -341,5 +341,59 @@ const rapidRender = {
         }
     ]
 }
+const connectThemAll = {
+    name:"Connect Them All",
+    isPlayable: false,
+    playLink: `https://www.youtube.com/embed/nnrWYf4EwZk`,
+    logoLink: `${process.env.PUBLIC_URL}/logos/connect-them-all-logo.png`,
+    width: "800",
+    height: "450",
+    allowFullScreen: true,
+    videoLink: "",
+    descriptions:[
+        {
+            type:"ul", 
+            text:"I made a puzzle game about connecting the pops."
+        },
+        {
+            type:"ul",
+            text:"Thanks to the algorithm I wrote, the game doesn't end and continues forever."
+        },
+        {
+            type:"ul",
+            text:"Fully mobile optimized and has no performance problems."
+        },
+        {
+            type:"ul",
+            text:"I added vibration, Unity Ads, Appmetrica, Firebase Analytics and Messaging, Google Play Services and Airbridge. Also, I published on Google Play Store."
+        }
+    ],
+    links: [{
+        name:"View my github repository",
+        path:"https://github.com/sugartechnology/ConnectThemAll"
+    }],
+    images:[
+        {
+           path:`${process.env.PUBLIC_URL}/images/connectThemAll/1.jpg`,
+           width:"300px",
+           height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/connectThemAll/2.jpg`,
+            width:"300px",
+            height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/connectThemAll/3.jpg`,
+            width:"300px",
+            height:"500px"
+        },
+        {
+            path:`${process.env.PUBLIC_URL}/images/connectThemAll/4.jpg`,
+            width:"300px",
+            height:"500px"
+        }
+    ]
+}
 
-export let games = [tetrisGame, pacmanGame, snakeGame, helixJump, myBird, chemistryLab, soccerBallRun, rapidRender];
+export let games = [tetrisGame, pacmanGame, snakeGame, helixJump, myBird, chemistryLab, soccerBallRun, rapidRender, connectThemAll];

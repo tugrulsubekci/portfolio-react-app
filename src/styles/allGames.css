@@ -3,6 +3,7 @@
     --clr-gray: #d2d2d2;
     color: var(--clr-gray);
     margin: 2rem;
+    padding: 20px 5%
   }
   
   .wrapper-grid-allgames {
