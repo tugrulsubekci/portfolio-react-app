@@ -15,7 +15,8 @@ function About() {
             {title: "Back-End", description: "MongoDB, Express.js, SQL and NOSQL Databases"}
         ]},
         {tabTitle: "Experience", items: [
-            {title: "10/2022 - Now", description: "Unity Developer - Sugar Technology"}
+            {title: "10/2022 - Now", description: "Unity Developer - Sugar Technology"},
+            {title: "06/2022 - 10/2022", description: "Game Developer - Self Employed"}
         ]},
         {tabTitle: "Education", items: [
             {title: "2015 - 2021", description: "Chemical Engineering - Ankara University"}
