@@ -137,7 +137,7 @@ const helixJump = {
 const myBird = {
     name:"My Bird",
     isPlayable: true,
-    playLink: `${process.env.PUBLIC_URL}/games/myBird/index.html`,
+    playLink: `${process.env.PUBLIC_URL}/games/MyBird/index.html`,
     logoLink: `${process.env.PUBLIC_URL}/logos/my-bird-logo.png`,
     width: "500",
     height: "800",
@@ -190,7 +190,7 @@ const myBird = {
 const chemistryLab = {
     name:"Chemistry Lab",
     isPlayable: true,
-    playLink: `${process.env.PUBLIC_URL}/games/chemistryLab/index.html`,
+    playLink: `${process.env.PUBLIC_URL}/games/ChemistryLab/index.html`,
     logoLink: `${process.env.PUBLIC_URL}/logos/chemistry-lab-logo.png`,
     width: "650",
     height: "450",
