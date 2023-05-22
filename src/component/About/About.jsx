@@ -8,10 +8,11 @@ function About() {
     const tabTitles = ["Skills", "Experience", "Education"];
     const tabContents = [
         {tabTitle: "Skills", items: [
-            {title: "Unity", description: "Game and app development"},
-            {title: "C#", description: "Unity and .Net Library"}, 
+            {title: "Unity", description: "2D, 3D, VR, Audio, Editor, Multiplayer, Gameplay, AI, Performance, UI Systems, Rendering and Visual Effects, ShaderLab"},
+            {title: "C#", description: "Software Architecture, Object Oriented Programming, Design Patterns"}, 
             {title: "Blender", description: "Basic modelling and animation"}, 
-            {title: "Web Development", description: "Knowledge of HTML,CSS and JavaScript"}
+            {title: "Front-End", description: "HTML, CSS, JavaScript, Bootstrap, React.js, EJS"},
+            {title: "Back-End", description: "MongoDB, Express.js, SQL and NOSQL Databases"}
         ]},
         {tabTitle: "Experience", items: [
             {title: "10/2022 - Now", description: "Unity Developer - Sugar Technology"}
@@ -36,12 +37,12 @@ function About() {
                 </div> */}
                 <div className="about-col-1">
                     <h1 className="sub-title">About Me</h1>
-                    <p className="about-me-title">I am a Software Developer who is interested about any computer technologies.</p>
+                    <p className="about-me-title">I am a Unity Developer</p>
                     <p>
-                        I graduated from department of Chemical Engineering at Ankara University. My developer 
-                        journey started when I was an engineering student. After my graduation, I decided to learn Unity Engine. 
-                        I got lots of certificates about programming and Unity. On the other hand, I finished lots of individual projects. 
-                        Now, I am working on interior design application.
+                        I graduated from department of Chemical Engineering at Ankara University. 
+                        I met programming with MATLAB in my department. Then, I love it and I decided to improve myself in this field.
+                        I started my career with Unity. I developed lots of small games and also, joined a game jam. Then, I got a full-time job in SugarTech.
+                        Now, we are working on RapidRender which is an interior design application for 8 months.  
                     </p>
                     <div className="tab-titles">
                         {tabTitles.map((title,index) => <TabTitle text={title} key={index} isActive={activeTitle === title ? true : false} setActive={()=> setTitle(title)}/>)}
