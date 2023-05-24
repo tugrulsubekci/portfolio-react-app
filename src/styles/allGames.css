@@ -1,9 +1,8 @@
 .root-allgames {
     --clr-primary: #ff004f;
-    --clr-gray: #d2d2d2;
+    --clr-gray: #ababab;
     color: var(--clr-gray);
-    margin: 2rem;
-    padding: 20px 5%
+    padding: 80px 0px;
   }
   
   .wrapper-grid-allgames {
@@ -39,6 +38,7 @@
   .name-allgames {
     font-weight: bold;
     font-size: 1.5rem;
+    color: white;
   }
   
   .description-allgames {

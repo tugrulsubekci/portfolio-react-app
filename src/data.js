@@ -86,8 +86,8 @@ const helixJump = {
     isPlayable: true,
     playLink: `${process.env.PUBLIC_URL}/games/HelixJump/index.html`,
     logoLink: `${process.env.PUBLIC_URL}/logos/helix-jump-logo.png`,
-    width: "500",
-    height: "800",
+    width: "400",
+    height: "700",
     allowFullScreen: true,
     descriptions:[
         {
@@ -139,8 +139,8 @@ const myBird = {
     isPlayable: true,
     playLink: `${process.env.PUBLIC_URL}/games/MyBird/index.html`,
     logoLink: `${process.env.PUBLIC_URL}/logos/my-bird-logo.png`,
-    width: "500",
-    height: "800",
+    width: "400",
+    height: "700",
     allowFullScreen: true,
     descriptions:[
         {
@@ -316,28 +316,28 @@ const rapidRender = {
     images:[
         {
            path:`${process.env.PUBLIC_URL}/images/rapidRender/1.png`,
-           width:"500px",
-           height:"300px"
+           width:"350px",
+           height:"200px"
         },
         {
             path:`${process.env.PUBLIC_URL}/images/rapidRender/2.png`,
-            width:"500px",
-            height:"300px"
+            width:"350px",
+            height:"200px"
         },
         {
             path:`${process.env.PUBLIC_URL}/images/rapidRender/3.png`,
-            width:"500px",
-            height:"300px"
+            width:"350px",
+            height:"200px"
         },
         {
             path:`${process.env.PUBLIC_URL}/images/rapidRender/4.png`,
-            width:"500px",
-            height:"300px"
+            width:"350px",
+            height:"200px"
         },
         {
             path:`${process.env.PUBLIC_URL}/images/rapidRender/5.png`,
-            width:"500px",
-            height:"300px"
+            width:"350px",
+            height:"200px"
         }
     ]
 }

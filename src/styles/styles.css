@@ -63,7 +63,7 @@ nav ul li a:hover::after {
     color: #ff004f;
 }
 /* ---------------------------------about------------------------------ */
-#about {
+#about, #contact {
     color: #ababab;
     padding: 80px 0px;
 }
@@ -314,25 +314,23 @@ form .btn2{
     width: 960px;
     height: max-content;
     margin: 0px auto;
+    padding: 30px 10px;
 }
 .center-container ul {
     text-align: start;
     align-items: start;
 }
+
+.center-container .container{
+    margin-top: 2rem;
+}
+
 .game-left {
     flex-basis: 50%;   
 }
 .game-right {
     flex-basis: 50%;   
 }
-/* .game-left p {
-    margin-top: 30px;   
-} */
-/* .game-left p i {
-    color: #ff004f;
-    margin-right: 15px;
-    font-size: 25px;
-} */
 
 /* -----------------css for small screens----------------------- */
 nav .fa-solid {
@@ -395,5 +393,9 @@ nav .fa-solid {
 
     .center-container {
         width: 600px;
+    }
+
+    .center-container iframe {
+        width: 560px;
     }
 }
