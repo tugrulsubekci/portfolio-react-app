@@ -394,11 +394,13 @@ nav .fa-solid {
     }
 
     .center-container {
-        width: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .center-container iframe {
-        width: 560px;
+        margin: 0 auto;
     }
 
     .row {
