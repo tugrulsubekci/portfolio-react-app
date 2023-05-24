@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import {games} from "../data";
+import ImageGallery from 'react-image-gallery';
 
 function Game() {
     const params = useParams();
@@ -38,7 +39,7 @@ function Game() {
                         {game.links.map((l,index)=> <Link key={index} to={l.path} target="_blank">{l.name}</Link>)}
                     </div>
                     <div className={game.images !== undefined ? "game-right" : ""}>
-                        {game.images !== undefined ? game.images.map((i,index)=> <img key={index} src={i.path} alt="game image" style={{width: i.width, height: i.height}} />) : ""}
+                        {game.images === undefined ? <></> : <ImageGallery items={game.images} />}
                     </div>
                 </div>
             </div>

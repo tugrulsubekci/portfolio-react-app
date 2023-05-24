@@ -1,3 +1,5 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 *{
     margin: 0;
     padding: 0;
@@ -397,5 +399,9 @@ nav .fa-solid {
 
     .center-container iframe {
         width: 560px;
+    }
+
+    .row {
+        flex-direction: column-reverse;
     }
 }

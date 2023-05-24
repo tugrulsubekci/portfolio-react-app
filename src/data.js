@@ -47,19 +47,16 @@ const pacmanGame = {
     }],
     images:[
         {
-           path:`${process.env.PUBLIC_URL}/images/pacman/1.jpg`,
-           width:"300px",
-           height:"300px"
+           original:`${process.env.PUBLIC_URL}/images/pacman/1.jpg`,
+           thumbnail:`${process.env.PUBLIC_URL}/images/pacman/1.jpg`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/pacman/2.jpg`,
-            width:"300px",
-            height:"300px"
+            original:`${process.env.PUBLIC_URL}/images/pacman/2.jpg`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/pacman/2.jpg`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/pacman/3.jpg`,
-            width:"300px",
-            height:"300px"
+            original:`${process.env.PUBLIC_URL}/images/pacman/3.jpg`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/pacman/3.jpg`,
         }
     ]
 }
@@ -117,19 +114,16 @@ const helixJump = {
     }],
     images:[
         {
-           path:`${process.env.PUBLIC_URL}/images/helixJump/1.jpg`,
-           width:"300px",
-           height:"500px"
+           original:`${process.env.PUBLIC_URL}/images/helixJump/1.jpg`,
+           thumbnail:`${process.env.PUBLIC_URL}/images/helixJump/1.jpg`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/helixJump/2.jpg`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/helixJump/2.jpg`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/helixJump/2.jpg`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/helixJump/3.jpg`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/helixJump/3.jpg`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/helixJump/3.jpg`,
         }
     ]
 }
@@ -166,24 +160,20 @@ const myBird = {
     }],
     images:[
         {
-           path:`${process.env.PUBLIC_URL}/images/myBird/1.jpg`,
-           width:"300px",
-           height:"500px"
+           original:`${process.env.PUBLIC_URL}/images/myBird/1.jpg`,
+           thumbnail:`${process.env.PUBLIC_URL}/images/myBird/1.jpg`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/myBird/2.jpg`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/myBird/2.jpg`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/myBird/2.jpg`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/myBird/3.jpg`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/myBird/3.jpg`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/myBird/3.jpg`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/myBird/4.jpg`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/myBird/4.jpg`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/myBird/4.jpg`,
         }
     ]
 }
@@ -256,29 +246,24 @@ const soccerBallRun = {
     }],
     images:[
         {
-           path:`${process.env.PUBLIC_URL}/images/soccerBallRun/1.png`,
-           width:"300px",
-           height:"500px"
+           original:`${process.env.PUBLIC_URL}/images/soccerBallRun/1.png`,
+           thumbnail:`${process.env.PUBLIC_URL}/images/soccerBallRun/1.png`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/soccerBallRun/2.png`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/soccerBallRun/2.png`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/soccerBallRun/2.png`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/soccerBallRun/3.png`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/soccerBallRun/3.png`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/soccerBallRun/3.png`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/soccerBallRun/4.png`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/soccerBallRun/4.png`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/soccerBallRun/4.png`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/soccerBallRun/5.png`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/soccerBallRun/5.png`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/soccerBallRun/5.png`,
         }
     ]
 }
@@ -315,29 +300,24 @@ const rapidRender = {
     }],
     images:[
         {
-           path:`${process.env.PUBLIC_URL}/images/rapidRender/1.png`,
-           width:"350px",
-           height:"200px"
+           original:`${process.env.PUBLIC_URL}/images/rapidRender/1.png`,
+           thumbnail:`${process.env.PUBLIC_URL}/images/rapidRender/1.png`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/rapidRender/2.png`,
-            width:"350px",
-            height:"200px"
+            original:`${process.env.PUBLIC_URL}/images/rapidRender/2.png`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/rapidRender/2.png`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/rapidRender/3.png`,
-            width:"350px",
-            height:"200px"
+            original:`${process.env.PUBLIC_URL}/images/rapidRender/3.png`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/rapidRender/3.png`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/rapidRender/4.png`,
-            width:"350px",
-            height:"200px"
+            original:`${process.env.PUBLIC_URL}/images/rapidRender/4.png`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/rapidRender/4.png`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/rapidRender/5.png`,
-            width:"350px",
-            height:"200px"
+            original:`${process.env.PUBLIC_URL}/images/rapidRender/5.png`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/rapidRender/5.png`,
         }
     ]
 }
@@ -374,24 +354,20 @@ const connectThemAll = {
     }],
     images:[
         {
-           path:`${process.env.PUBLIC_URL}/images/connectThemAll/1.jpg`,
-           width:"300px",
-           height:"500px"
+           original:`${process.env.PUBLIC_URL}/images/connectThemAll/1.jpg`,
+           thumbnail:`${process.env.PUBLIC_URL}/images/connectThemAll/1.jpg`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/connectThemAll/2.jpg`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/connectThemAll/2.jpg`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/connectThemAll/2.jpg`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/connectThemAll/3.jpg`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/connectThemAll/3.jpg`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/connectThemAll/3.jpg`,
         },
         {
-            path:`${process.env.PUBLIC_URL}/images/connectThemAll/4.jpg`,
-            width:"300px",
-            height:"500px"
+            original:`${process.env.PUBLIC_URL}/images/connectThemAll/4.jpg`,
+            thumbnail:`${process.env.PUBLIC_URL}/images/connectThemAll/4.jpg`,
         }
     ]
 }
