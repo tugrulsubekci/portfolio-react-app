@@ -212,7 +212,7 @@ const chemistryLab = {
 const soccerBallRun = {
     name:"Soccer Ball Run",
     isPlayable: false,
-    playLink: `https://www.youtube.com/embed/pfor73SM5SQ`,
+    playLink: `https://youtube.com/shorts/eIOevEmvCe8?si=T2s9zbFrfc1YuWML`,
     logoLink: `${process.env.PUBLIC_URL}/logos/soccer-ball-run-logo.png`,
     width: "800",
     height: "450",

@@ -42,8 +42,8 @@ function About() {
                     <p>
                         I graduated from department of Chemical Engineering at Ankara University. 
                         I met programming with MATLAB in my department. Then, I love it and I decided to improve myself in this field.
-                        I started my career with Unity. I developed lots of small games and also, joined a game jam. Then, I got a full-time job in SugarTech.
-                        Now, we are working on RapidRender which is an interior design application for 8 months.  
+                        I started my career with Unity. I developed lots of small games and also, joined a game jam.
+                        Now, I am working on RapidRender which is an interior design application for almost 1 year.  
                     </p>
                     <div className="tab-titles">
                         {tabTitles.map((title,index) => <TabTitle text={title} key={index} isActive={activeTitle === title ? true : false} setActive={()=> setTitle(title)}/>)}
