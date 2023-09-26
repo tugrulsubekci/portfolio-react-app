@@ -3,7 +3,7 @@ import React from "react";
 const tetrisGame = {
     name:"Tetris",
     isPlayable: true,
-    playLink: `${process.env.PUBLIC_URL}/games/Tetris/index.html`,
+    playLink: `https://tugrulstorage.s3.eu-north-1.amazonaws.com/games/Tetris/index.html`,
     logoLink: `${process.env.PUBLIC_URL}/logos/tetris-logo.png`,
     width: "350",
     height: "750",
