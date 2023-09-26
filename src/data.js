@@ -26,7 +26,7 @@ const tetrisGame = {
 const pacmanGame = {
     name:"Pacman",
     isPlayable: true,
-    playLink: `${process.env.PUBLIC_URL}/games/Pacman/index.html`,
+    playLink: `https://tugrulstorage.s3.eu-north-1.amazonaws.com/games/Pacman/index.html`,
     logoLink: `${process.env.PUBLIC_URL}/logos/pacman-logo.png`,
     width: "750",
     height: "750",
@@ -63,7 +63,7 @@ const pacmanGame = {
 const snakeGame = {
     name:"Snake",
     isPlayable: true,
-    playLink: `${process.env.PUBLIC_URL}/games/Snake/index.html`,
+    playLink: `https://tugrulstorage.s3.eu-north-1.amazonaws.com/games/Snake/index.html`,
     logoLink: `${process.env.PUBLIC_URL}/logos/snake-logo.png`,
     width: "750",
     height: "600",
@@ -81,7 +81,7 @@ const snakeGame = {
 const helixJump = {
     name:"Helix Jump",
     isPlayable: true,
-    playLink: `${process.env.PUBLIC_URL}/games/HelixJump/index.html`,
+    playLink: `https://tugrulstorage.s3.eu-north-1.amazonaws.com/games/HelixJump/index.html`,
     logoLink: `${process.env.PUBLIC_URL}/logos/helix-jump-logo.png`,
     width: "400",
     height: "700",
@@ -131,7 +131,7 @@ const helixJump = {
 const myBird = {
     name:"My Bird",
     isPlayable: true,
-    playLink: `${process.env.PUBLIC_URL}/games/MyBird/index.html`,
+    playLink: `https://tugrulstorage.s3.eu-north-1.amazonaws.com/games/MyBird/index.html`,
     logoLink: `${process.env.PUBLIC_URL}/logos/my-bird-logo.png`,
     width: "400",
     height: "700",
@@ -180,7 +180,7 @@ const myBird = {
 const chemistryLab = {
     name:"Chemistry Lab",
     isPlayable: true,
-    playLink: `${process.env.PUBLIC_URL}/games/ChemistryLab/index.html`,
+    playLink: `https://tugrulstorage.s3.eu-north-1.amazonaws.com/games/ChemistryLab/index.html`,
     logoLink: `${process.env.PUBLIC_URL}/logos/chemistry-lab-logo.png`,
     width: "650",
     height: "450",
