@@ -38,12 +38,12 @@ function About() {
                 </div> */}
                 <div className="about-col-1">
                     <h1 className="sub-title">About Me</h1>
-                    <p className="about-me-title">I am a Unity Developer</p>
+                    <p className="about-me-title">I am a Software Developer</p>
                     <p>
                         I graduated from department of Chemical Engineering at Ankara University. 
                         I met programming with MATLAB in my department. Then, I love it and I decided to improve myself in this field.
                         I started my career with Unity. I developed lots of small games and also, joined a game jam.
-                        Now, I am working on RapidRender which is an interior design application for almost 1 year.  
+                        Now, I am working on RapidRender which is an interior design application for 1 year.  
                     </p>
                     <div className="tab-titles">
                         {tabTitles.map((title,index) => <TabTitle text={title} key={index} isActive={activeTitle === title ? true : false} setActive={()=> setTitle(title)}/>)}
